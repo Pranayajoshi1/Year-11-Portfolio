@@ -93,11 +93,14 @@ nav {
 }
 
 .title p {
+
+
     font-size: 32px;
     font-weight: bold;
     color: white;
-    animation: bounce 3s infinite;
-}
+    animation: bounce 3s infinite;}
+
+
 
 body {
     background: rgb(63,94,251);
@@ -204,3 +207,9 @@ body {
     background-color: #04AA6D;
     color: white;
   }
+  
+  
+
+
+ 
+ 
