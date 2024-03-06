@@ -1,27 +1,64 @@
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title> 
-    <link rel="stylesheet" href="style.css">
-
-    <a href="project1.html"></a>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Automatic Scrolling</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="topnav">
-        
-        <div class="topnav">
-            <a href="index.html">Home</a>
-            <a href="Aboutus.html">About us</a>
-            <a href="projects/project1/project1.html">Project 1</a>
-            <a href="project2.html">Project 2</a>
-            <a class="active" href="Project3.html">Project 3</a>
-          </div>
-      </div>
-     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem recusandae non voluptates ab vel beatae culpa quibusdam fuga quam eveniet?</p>
-      
-      <P> hdhdhdhd</P>
-      <a href="home">Back to Projects</a>
+    <style>
+    /* Style for the sections */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #f0f0f0;
+  }
+
+  
+  .scroll-link {
+    display: block;
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 30px;
+  }
+</style>
+<div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="Aboutus.html">About us</a>
+    <a href="projects/project1/project1.html">Project 1</a>
+    <a href="project2.html">Project 2</a>
+    <a class="active" href="Project3.html">Project 3</a>
+  </div>
+</div>
+               <!-- Anchor link to scroll to the "Final Outcome" section -->
+                   <a href="#final-outcome" class="scroll-link">Final Outcome</a>
+
+                 <!-- Section for "Final Outcome" -->
+                   <section id="final-outcome">
+                    <h2>Final Outcome</h2>
+                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque impedit vel provident ullam nemo reiciendis?.</p>
+   </section>
+
+         <!-- Anchor link to scroll to the "End User Requirement" section -->
+             <a href="#end-user-requirement" class="scroll-link">End User Requirement</a>
+
+        <!-- Section for "End User Requirement" -->
+            <section id="end-user-requirement">
+             <h2>End User Requirement</h2>
+              <p>This is the content for End User Requirement.</p>
+           </section>
+
+          <!-- Anchor link to scroll to the "Implication Development" section -->
+           <a href="#implication-development" class="scroll-link">Implication Development</a>
+
+            <!-- Section for "Implication Development" -->
+             <section id="implication-development">
+            <h2>Implication Development</h2>
+            <p>This is the content for Implication Development.</p>
+  </section>
 </body>
 </html>

@@ -208,7 +208,27 @@ body {
     color: white;
   }
   
+/* Style for the sections */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #f0f0f0;
+  }
 
+  /* Style for the anchor links */
+  .scroll-link {
+    display: block;
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+  }
+
+  /* When the target is activated, scroll to the section */
+  section:target {
+    scroll-margin-top: 60px; /* Adjust the margin-top as needed */
+  }
 
 
 

@@ -1,46 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="style.css" rel="stylesheet">
-    <a href="project1.html"></a>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Automatic Scrolling</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="topnav">
-        <a href="index.html">Home</a>
-        <a href="Aboutus.html">About us</a>
-        <a class="active" href="project1.html">Project1</a>
-        <a href="project2.html">Project2</a>
-        <a href="Project3.html">Project3</a>
-      </div>
-     <p>      
-          <ul>
-          <h1> Portfolio</h1> 
-                    
-                    <h3> <li>Final Outcome</li>
-                        <li> End User</li>
-                         <li> Requirement </li>
-                         <li> Implication 
-                        <li> Development</li> </h3> </p> </ul>
+    <style>
+    /* Style for the sections */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #f0f0f0;
+  }
 
-<section class="enduser"> </section>
+  
+  .scroll-link {
+    display: block;
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 30px;
+  }
+</style>
         
-           <center><h1>Final Outcome</h1></center> 
-            <p>  
-                <h1>Overview</h1>
-                <H3> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, libero recusandae dolorem omnis velit voluptatum ullam! Fugiat animi, dolores, perspiciatis obcaecati quo natus est eveniet voluptates magnam repellendus dolore blanditiis.</H3>
-                      </p>
+<a href="#showButton" class="scroll-anchor"></a>
+
+  
+<div id="showButton" class="scroll-target"></div>
+
+
+
+
+<div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="Aboutus.html">About us</a>
+    <a href="projects/project1/project1.html">Project 1</a>
+    <a href="project2.html">Project 2</a>
+    <a class="active" href="project1.html">Project 3</a>
+  </div>
+</div>
+               <!-- Anchor link to scroll to the "Final Outcome" section -->
+                   <a href="#final-outcome" class="scroll-link">Final Outcome</a>
+
+                 <!-- Section for "Final Outcome" -->
+                   <section id="Overview">
                     
-        <ul> 
+                    <h2>Overview </h2>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam placeat officia dignissimos at nulla neque, illum error consequatur provident a voluptates amet quisquam fugit numquam deleniti totam magnam reiciendis libero quaerat nihil iste. Consequatur debitis ad incidunt minima accusamus unde.</p>
+   </section>
 
-            <li> CSS</li>
-            <li> HTML</li>
-        </ul>
+         <!-- Anchor link to scroll to the "End User Requirement" section -->
+             <a href="#end-user-requirement" class="scroll-link">End User Requirement</a>
 
+        <!-- Section for "End User Requirement" -->
+            <section id="end-user-requirement">
+             <h2>End User Requirement</h2>
+              <p>This is the content for End User Requirement.</p>
+           </section>
 
+          <!-- Anchor link to scroll to the "Implication Development" section -->
+           <a href="#implication-development" class="scroll-link">Implication Development</a>
 
-     </p>
+            <!-- Section for "Implication Development" -->
+             <section id="implication-development">
+            <h2>Implication Development</h2>
+            <p>This is the content for Implication Development.</p>
+  </section>
 </body>
 </html>
