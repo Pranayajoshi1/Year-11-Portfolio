@@ -224,13 +224,16 @@ section {
     color: #333;
     font-size: 18px;
   }
+  .smallimg {
+    height: 200px;
+display: inline-block;
+position: absolute;
+margin-left: 800px;
+margin-top: -175px;
+  }
+  .thin{  width: 50%;
 
-  /* When the target is activated, scroll to the section */
-  section:target {
-    scroll-margin-top: 60px; /* Adjust the margin-top as needed */
+display: inline-block;
   }
 
 
-
- 
- 
