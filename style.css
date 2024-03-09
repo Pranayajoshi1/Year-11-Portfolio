@@ -235,5 +235,81 @@ margin-top: -175px;
 
 display: inline-block;
   }
+  .image{
+    height: 200px;
+    display: inline block;
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: -175px;
 
 
+  }
+.TEXT{
+font-style: italic;
+color: #04AA6D;
+}
+.Output{
+
+    margin-left: 1100px;
+
+}
+.tEST{
+
+    margin-left: 10px;
+}
+.Expectation{
+
+    margin-left: 600px;
+
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left, .middle, .right {
+    flex: 1;
+    text-align: center;
+}
+
+.left {
+    order: 7;
+}
+
+.middle {
+    order: 2;
+}
+
+.right {
+    order: 3;
+}
+.nepal{
+    height: 200px;
+    display: inline block;
+    position: absolute;
+    margin-left: -143px;
+    margin-top: 0px;
+
+}
+.Feedback{
+
+    font-style: italic;
+}
+
+.HELLO{
+
+    height: 300px;
+    display: inline block;
+    position: absolute;
+    margin-left: 850px;
+    margin-top: -350px;
+
+}
+.BYE{
+    height: 300px;
+    display: inline block;
+    position: absolute;
+    margin-left: 157px;
+    margin-top: -50px;
+
+}
