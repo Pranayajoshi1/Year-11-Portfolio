@@ -313,3 +313,21 @@ color: #04AA6D;
     margin-top: -50px;
 
 }
+.new{ height: 300px;
+    display: inline block;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: -175px;
+
+
+}
+
+.ktm{  
+    height: 300px;
+    display: inline block;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -175px;
+
+
+}
