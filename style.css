@@ -331,3 +331,40 @@ color: #04AA6D;
 
 
 }
+.npl{
+    height: 300px;
+    display: inline block;
+    position: absolute;
+    margin-left: 450px;
+    margin-top: -175px;
+
+
+}
+.eww {
+    height: 250px;
+    display: inline block;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: -175px;
+
+
+
+}
+
+.mbl{
+
+    height: 250px;
+    display: inline block;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: -199px;
+
+}
+.kxa{
+    height: 250px;
+    display: inline block;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -199px;
+
+}
