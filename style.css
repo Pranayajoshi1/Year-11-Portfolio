@@ -316,7 +316,7 @@ color: #04AA6D;
 .new{ height: 300px;
     display: inline block;
     position: absolute;
-    margin-left: 500px;
+    margin-left: 900px;
     margin-top: -175px;
 
 
@@ -367,4 +367,33 @@ color: #04AA6D;
     margin-left: 10px;
     margin-top: -199px;
 
+}
+.np{
+    height: 400px;
+    display: inline block;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 80px;
+
+
+}
+.k{
+    height: 400px;
+    display: inline block;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 1x;
+
+
+
+
+}
+.sakyo{
+
+    
+    height: 300px;
+    display: inline block;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 1x;
 }
